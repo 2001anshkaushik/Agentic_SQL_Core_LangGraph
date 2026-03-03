@@ -12,7 +12,7 @@ Unlike standard conversational agents that decide their own path, LangGraph enfo
 - **Fail-Safe Pipelines**: If the Code Generator hallucinates a column, the execution node catches the SQL error and can pass the exact traceback back into the graph state for an automated retry loop.
 
 ### Comparative Approach: LangGraph vs. LlamaIndex
-*(See my complementary repository: **[Agentic SQL Advanced: Semantic RAG & Review Engine](../Agentic_SQL_Advanced_LlamaIndex/)**)*
+*(See my complementary repository: **[Agentic SQL Advanced: Semantic RAG & Review Engine](https://github.com/2001anshkaushik/Agentic_SQL_Advanced_LlamaIndex)**)*
 
 While LangGraph excels at strict, deterministic pipelines—making it perfect for structural SQL generation where precision is critical—it requires significant boilerplate and explicit state management. In contrast, **LlamaIndex** (used in my Advanced RAG repository) excels at rapid tool-chaining and semantic vector search, making it ideal for unstructured data like customer reviews. 
 
